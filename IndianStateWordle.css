@@ -77,3 +77,37 @@
     border-radius: 3px !important;
     border: none !important;
 }
+
+.navbar-grid {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-left {
+    justify-self: start;
+    min-width: 0;
+}
+
+.navbar-center {
+    justify-self: center;
+}
+
+.navbar-right {
+    justify-self: end;
+}
+
+.brand-wrap {
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    line-height: 1.1;
+    max-width: 100%;
+}
+
+.brand-flag {
+    vertical-align: middle;
+    height: 1.1em;
+    margin-left: .35rem;
+}
