@@ -16,9 +16,16 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom border-body mb-3">
         <div class="container-fluid">
-            <span class="navbar-brand mb-0 h1">Indian State Wordle <img src="Images/india_2.png"></span>
-            <strong class="nav-center score-counter"><span id="NumCorrect">0</span> / 28</strong>
-            <button class="btn btn-outline-light" id="ResetGame">Reset Game</button>
+            <div class="navbar-grid">
+                <span class="navbar-brand mb-0 h1 brand-wrap">Indian State Wordle <img class="brand-flag"
+                        src="Images/india_2.png"></span>
+                <div class="navbar-center">
+                    <strong class="score-counter"><span id="NumCorrect">0</span> / 28</strong>
+                </div>
+                <div class="navbar-right">
+                    <button class="btn btn-outline-light" id="ResetGame">Reset Game</button>
+                </div>
+            </div>
         </div>
     </nav>
 
@@ -111,3 +118,4 @@
     <script src="IndianStateWordle.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.1"></script>
 </body>
+
